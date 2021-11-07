@@ -6,28 +6,28 @@
 #   weight: 5
 
 - name: Baby
-  weight: 5
+  weight: 3
 
 - name: AngularJS
   weight: 3
 
 - name: React
-  weight: 4
+  weight: 3
 
 - name: Node
-  weight: 1
+  weight: 3
 
 - name: Flutter
-  weight: 2
+  weight: 3
 
 - name: Express
   weight: 3
 
 - name: Django
-  weight: 1
+  weight: 3
 
 - name: Spring
-  weight: 2
+  weight: 3
 
 - name: Rails
-  weight: 4
+  weight: 3
