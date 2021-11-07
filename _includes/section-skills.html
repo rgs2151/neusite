@@ -10,7 +10,7 @@
   <input type="radio" id="tool" name="filter" />
   <label class="filter-button neumorphism-button" for="tool">Tools</label>
 
-  <div id ="skill-divs-holder" class="tag-wrapper">
+  <div id ="skill-divs-holder" class="tag-wrapper" data-aos="zoom-in" data-aos-duration="200" data-aos-delay="0">
     <!-- data-aos="zoom-in" -->
     {% for language in site.data.skills-languages %}
       <span skill-type="language" class="tag neumorphism-card">{{language.name}}</span>
