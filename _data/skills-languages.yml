@@ -5,38 +5,26 @@
 # - name: Language
 #   weight: 5
 
-- name: Baby
-  weight: 3
+- name: ok
 
 - name: JavaScript
-  weight: 3
 
 - name: Python
-  weight: 3
 
 - name: HTML5
-  weight: 3
 
 - name: CSS3
-  weight: 3
 
 - name: SASS
-  weight: 3
 
 - name: Java
-  weight: 3
 
 - name: Dart
-  weight: 3
 
 - name: Swift
-  weight: 3
 
 - name: Kotlin
-  weight: 3
 
 - name: C++
-  weight: 3
 
 - name: Ruby
-  weight: 3

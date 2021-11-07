@@ -70,9 +70,9 @@ os_projects_title: Open Source Projects
 # show_skills_card:
 # > setting this to true, will display the Skills section
 # > setting this to false, will omit the Skills section
-show_skills_card: false
+show_skills_card: true
 # about_me_title: The will be displayed as the title in the Skills section
-skills_title: Skills
+skills_title: Skills & Tools
 
 
 # CONTACT SECTION
