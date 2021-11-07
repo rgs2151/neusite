@@ -10,6 +10,8 @@ description: Portfolio of Rudramani Singha
 baseurl: "/neusite"
 
 # LANDING PAGE
+# adds noise by then also makes things bringther >:<
+include_noise: false
 # username: This will displayed on the landing page as your name.
 username: Rudramani
 # typing_text: This will be typed before 'scroll down for more'.
