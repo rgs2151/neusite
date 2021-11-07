@@ -265,7 +265,8 @@ a {
 .landing-title {
   display: inline-flex;
   flex-direction: column;
-  max-width: 622px;
+  max-width: 720px;
+  pointer-events: none;
 
   // left: 0;
   margin: 0.5rem;
@@ -278,6 +279,8 @@ a {
 .landing-icons {
   display: flex;
   justify-content: center;
+  font-size: 0.82rem;
+  pointer-events: auto;
 
   .social-link {
     color: $text-color;
@@ -415,6 +418,16 @@ a {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+
+  #skill-divs-holder {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    column-gap: 10px;
+  }
 
   div {
     padding: 0.2rem;

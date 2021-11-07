@@ -180,7 +180,8 @@
  .landing-title {
 	 display: inline-flex;
 	 flex-direction: column;
-	 max-width: 622px;
+	 max-width: 720px;
+	 pointer-events: none;
 	 margin: 0.5rem;
 	 padding: 0.5rem;
 	 position: absolute;
@@ -189,6 +190,8 @@
  .landing-icons {
 	 display: flex;
 	 justify-content: center;
+	 font-size: 0.82rem;
+	 pointer-events: auto;
 }
  .landing-icons .social-link {
 	 color: #fff;
@@ -295,6 +298,15 @@
 	 display: flex;
 	 flex-wrap: wrap;
 	 justify-content: center;
+}
+ #skills #skill-divs-holder {
+	 display: flex;
+	 justify-content: center;
+	 text-align: center;
+	 flex-direction: row;
+	 flex-wrap: wrap;
+	 align-content: center;
+	 column-gap: 10px;
 }
  #skills div {
 	 padding: 0.2rem;
