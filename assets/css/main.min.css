@@ -169,7 +169,7 @@
  .landing-title {
 	 display: inline-flex;
 	 flex-direction: column;
-	 max-width: 478px;
+	 max-width: 622px;
 	 margin: 0.5rem;
 	 padding: 0.5rem;
 	 position: absolute;
@@ -265,7 +265,7 @@
 }
  @keyframes colorEmail {
 	 to {
-		 stroke: #b23121;
+		 stroke: #1ec0d1;
 	}
 }
  @keyframes colorLinkedin {
@@ -290,13 +290,13 @@
 	 transition: opacity 0.5s;
 }
  #skills div[skill-type="language"] {
-	 color: #e84a5f;
+	 color: #20d8ec;
 }
  #skills div[skill-type="framework"] {
-	 color: #ff847c;
+	 color: #6bd2dd;
 }
  #skills div[skill-type="tool"] {
-	 color: #fecea8;
+	 color: #c3e8ec;
 }
  #skills div[skill-weight="1"] {
 	 font-size: 0.75rem;

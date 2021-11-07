@@ -254,7 +254,7 @@ a {
 .landing-title {
   display: inline-flex;
   flex-direction: column;
-  max-width: 478px;
+  max-width: 622px;
 
   // left: 0;
   margin: 0.5rem;
@@ -379,7 +379,8 @@ a {
 
   @keyframes colorEmail {
     to {
-      stroke: #b23121;
+      // stroke: #b23121;
+      stroke: $primary-color;
     }
   }
 
@@ -410,15 +411,18 @@ a {
   }
 
   div[skill-type="language"] {
-    color: #e84a5f;
+    // color: #e84a5f;
+    color: #20d8ec;
   }
 
   div[skill-type="framework"] {
-    color: #ff847c;
+    // color: #ff847c;
+    color: #6bd2dd;
   }
 
   div[skill-type="tool"] {
-    color: #fecea8;
+    // color: #fecea8;
+    color: #c3e8ec;
   }
 
   div[skill-weight="1"] {
