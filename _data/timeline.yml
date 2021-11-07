@@ -17,7 +17,7 @@
 #     - tag: Rails
 #   timeline-side: right
 
-- title: airbnb
+- title: Born
   title-url: https://example.com/
   date: Sep 2019 - Present
   subtitle: Fullstack Developer
@@ -57,5 +57,10 @@
 - title: Super University
   title-url: https://example.com/
   date: 2014 - 2017
+  subtitle: B.A. Computer Science
+  timeline-side: left
+
+- title: Super University
+  date: 2010 - 2014
   subtitle: B.A. Computer Science
   timeline-side: left
