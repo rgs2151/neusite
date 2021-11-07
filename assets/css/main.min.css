@@ -13,6 +13,17 @@
 	 height: 100%;
 	 overflow: hidden;
 }
+/* Hide scrollbar for Chrome, Safari and Opera */
+ body::-webkit-scrollbar {
+	 display: none;
+}
+/* Hide scrollbar for IE, Edge and Firefox */
+ body {
+	 -ms-overflow-style: none;
+	/* IE and Edge */
+	 scrollbar-width: none;
+	/* Firefox */
+}
  body {
 	 height: 100%;
 }
@@ -226,7 +237,7 @@
 	 animation: outWaveIn 1s cubic-bezier(0.42, 0, 0.58, 1) forwards, colorEmail 1s linear forwards;
 }
  .landing-icons .email:hover .social-svg {
-	 fill: #d44638;
+	 fill: #1ec0d1;
 }
  .landing-icons .linkedin:hover .circle {
 	 animation: outWaveIn 1s cubic-bezier(0.42, 0, 0.58, 1) forwards, colorLinkedin 1s linear forwards;
