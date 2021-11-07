@@ -5,7 +5,7 @@
 # - name: Framework
 #   weight: 5
 
-- name: Angular
+- name: Baby
   weight: 5
 
 - name: AngularJS
