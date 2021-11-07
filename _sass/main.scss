@@ -279,7 +279,7 @@ a {
 .landing-icons {
   display: flex;
   justify-content: center;
-  font-size: 0.82rem;
+  font-size: 1rem;
   pointer-events: auto;
 
   .social-link {
@@ -740,6 +740,7 @@ a {
     }
 
     @mixin filter-out {
+      display: none;
       height: 0;
       margin: 0;
       opacity: 0;

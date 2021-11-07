@@ -190,7 +190,7 @@
  .landing-icons {
 	 display: flex;
 	 justify-content: center;
-	 font-size: 0.82rem;
+	 font-size: 1rem;
 	 pointer-events: auto;
 }
  .landing-icons .social-link {
@@ -550,6 +550,7 @@
 		 box-shadow: 1px 1px 2px 0 rgba(210, 210, 210, 0.4), -1px -1px 2px rgba(0, 0, 0, 0.4), inset 3px 3px 2px 0 rgba(0, 0, 0, 0.4), inset -1px -2px 2px rgba(210, 210, 210, 0.4);
 	}
 	 #skills input[id="language"]:checked ~ div > span[skill-type="framework"], #skills input[id="language"]:checked ~ div > span[skill-type="tool"] {
+		 display: none;
 		 height: 0;
 		 margin: 0;
 		 opacity: 0;
@@ -557,6 +558,7 @@
 		 width: 0;
 	}
 	 #skills input[id="framework"]:checked ~ div > span[skill-type="language"], #skills input[id="framework"]:checked ~ div > span[skill-type="tool"] {
+		 display: none;
 		 height: 0;
 		 margin: 0;
 		 opacity: 0;
@@ -564,6 +566,7 @@
 		 width: 0;
 	}
 	 #skills input[id="tool"]:checked ~ div > span[skill-type="language"], #skills input[id="tool"]:checked ~ div > span[skill-type="framework"] {
+		 display: none;
 		 height: 0;
 		 margin: 0;
 		 opacity: 0;
