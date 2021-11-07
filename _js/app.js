@@ -111,10 +111,11 @@ TxtRotate.prototype.tick = function() {
 /* Word Cloud */
 
 function randomizeOrder() {
-  var parent = document.getElementById('skills');
+  var parent = document.getElementById('skill-divs-holder');
   var divs = parent.getElementsByTagName('div');
   var frag = document.createDocumentFragment();
 
+  console.log(divs.length)
   // Randomize order of skills
   while (divs.length) {
     frag.appendChild(divs[Math.floor(Math.random() * divs.length)]);

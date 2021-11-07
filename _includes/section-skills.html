@@ -10,16 +10,16 @@
   <input type="radio" id="tool" name="filter" />
   <label class="filter-button neumorphism-button" for="tool">Tools</label>
 
-  <div class="tag-wrapper">
+  <div id ="skill-divs-holder" class="tag-wrapper">
 
     {% for language in site.data.skills-languages %}
-      <div skill-type="language" class="tag neumorphism-card" data-aos="zoom-in">{{language.name}}</div>
+      <span skill-type="language" class="tag neumorphism-card" data-aos="zoom-in">{{language.name}}</span>
     {% endfor %}
     {% for framework in site.data.skills-frameworks %}
-      <div skill-type="framework" class="tag neumorphism-card" data-aos="zoom-in">{{framework.name}}</div>
+      <span skill-type="framework" class="tag neumorphism-card" data-aos="zoom-in">{{framework.name}}</span>
     {% endfor %}
     {% for tool in site.data.skills-tools %}
-      <div skill-type="tool" class="tag neumorphism-card" data-aos="zoom-in">{{tool.name}}</div>
+      <span skill-type="tool" class="tag neumorphism-card" data-aos="zoom-in">{{tool.name}}</span>
     {% endfor %}
 
   </div>

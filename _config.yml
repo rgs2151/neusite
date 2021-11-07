@@ -15,6 +15,7 @@ username: Rudramani
 # typing_text: This will be typed before 'scroll down for more'.
 # > set this to your job title, e.g. Fullstack Developer
 typing_text: AI + Bio
+other_text: Brain–Machine Interface.
 # email: Your E-Mail address for the email button.
 email: rudramani.singha@example.com
 # For every social button you want to display, set your username or userid
