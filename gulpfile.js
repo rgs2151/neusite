@@ -81,7 +81,7 @@ function browserSyncReload(done) {
 function jekyll(done) {
   return cp
     .spawn(
-      'bundle',
+      'bundle.bat',
       [
         'exec',
         'jekyll',
@@ -90,9 +90,13 @@ function jekyll(done) {
         '--config=_config.yml,_config_dev.yml'
       ],
       {
-        stdio: 'inherit'
+        // env: {
+        //   PATH: process.env.PATH
+        // },
+        stdio: 'inherit',
       }
     )
+    .on('error', function( err ){ throw err })
     .on('close', done);
 }
 

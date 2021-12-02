@@ -1,0 +1,10 @@
+
+landing
+    justify-content: center;
+    text-align: center;
+
+
+landing-title
+    display: inline-flex;
+    flex-direction: column;
+    max-width: 478px;

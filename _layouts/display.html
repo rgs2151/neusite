@@ -18,47 +18,40 @@
   <link rel="stylesheet" href="{{ "/assets/css/vendors.min.css" | prepend: site.baseurl }}">
 
   <script src="{{ "/assets/js/vendors.min.js" | prepend: site.baseurl }}"></script>
-  <script src="{{ "/assets/js/app.min.js" | prepend: site.baseurl }}"></script>
+  <script src="{{ "/assets/js/app_disp.js" | prepend: site.baseurl }}"></script>
 </head>
 
 <body>
-  <div id="preloader">
-    <div class="load">
-      <hr />
-      <hr />
-      <hr />
-      <hr />
-    </div>
-  </div>
-  {% include landing-page.html %}
   <div class="layout">
-    {%if site.show_aboutme_card %}
-      <section class="card neumorphism-card-big">
-        {% include section-aboutme.html %}
-      </section>
-    {% endif %}
-    {%if site.show_timeline_card %}
-      <section class="card neumorphism-card-big">
-        {% include section-timeline.html %}
-      </section>
-    {% endif %}
-    {%if site.show_projects_card %}
-      <section class="card neumorphism-card-big">
-        {% include section-projects.html %}
-      </section>
-    {% endif %}
-    {%if site.show_skills_card %}
     <section class="card neumorphism-card-big">
-      {% include section-skills.html %}
+      <h1 class="title"><span>
+        <a class="highlight-link" href="{{ site.baseurl }}" rel="noreferrer" st> ⦭ </a>
+        Research Papers</span></h1>
     </section>
-    {% endif %}
-
-    {%if site.show_contact_card %}
     <section class="card neumorphism-card-big">
-      {% include section-contact.html %}
+      <div class="projects-wrapper">
+        {% for papers in site.data.papers %}
+          <div class="project neumorphism-card" data-aos="zoom-in-down" data-aos-duration="200" data-aos-delay="0">
+            <div class="name-link-wrapper">
+              <h3>{{papers.name}}</h3>
+            </div>
+            <p class="project-desc">{{papers.descr}}</p>
+            {% if papers.demo %}
+              <a class="highlight-link" href="{{papers.demo}}" target="_blank" rel="noreferrer">
+                Preprint + Acceptance
+              </a>
+            {% endif %}
+            {% if papers.tags %}
+              <div class="tag-wrapper">
+                {% for tag in papers.tags %}
+                  <span class="tag neumorphism-card">{{tag.tag}}</span>
+                {% endfor %}
+              </div>
+            {% endif %}
+          </div>
+      {% endfor %}
+      </div>
     </section>
-    {% endif %}
   </div>
-  {% include footer.html %}
 </body>
 </html>

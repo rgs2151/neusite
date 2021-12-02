@@ -1,1 +1,1 @@
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "http://localhost:4000/" # the subpath of your site, e.g. /blog
