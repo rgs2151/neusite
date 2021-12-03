@@ -15,10 +15,10 @@
   <link rel="manifest" href="{{ "/assets/favicon/site.webmanifest" | prepend: site.baseurl }}">
 
   <link rel="stylesheet" href="{{ "/assets/css/main.min.css" | prepend: site.baseurl }}">
-  <link rel="stylesheet" href="{{ "/assets/css/vendors.min.css" | prepend: site.baseurl }}">
+  <!-- <link rel="stylesheet" href="{{ "/assets/css/vendors.min.css" | prepend: site.baseurl }}"> -->
 
-  <script src="{{ "/assets/js/vendors.min.js" | prepend: site.baseurl }}"></script>
-  <script src="{{ "/assets/js/app_disp.js" | prepend: site.baseurl }}"></script>
+  <!-- <script src="{{ "/assets/js/vendors.min.js" | prepend: site.baseurl }}"></script> -->
+  <!-- <script src="{{ "/assets/js/app_preprints.js" | prepend: site.baseurl }}"></script> -->
 </head>
 
 <body>
@@ -35,5 +35,9 @@
       {% include vsd_inc.html %}
     {% endif %}
   </div>
+
+  <script>
+    document.documentElement.style.overflowY = 'auto';
+  </script>
 </body>
 </html>
