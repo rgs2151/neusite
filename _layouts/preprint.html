@@ -26,37 +26,14 @@
     <section class="card neumorphism-card-big">
       <h1 class="title"><span>
         <a class="highlight-link" href="https://www.rudramanisingha.com/" rel="noreferrer" st> ⦭ </a>
-        Preprints</span></h1>
+        Preprint</span></h1>
     </section>
-    <section class="card neumorphism-card-big">
-      {% for papers in site.data.sdr %}
-        <div class="project neumorphism-card" data-aos="zoom-in-down" data-aos-duration="200" data-aos-delay="0">
-          <div class="name-link-wrapper">
-            <h3>{{papers.name}}</h3>
-          </div>
-          <p class="project-desc">{{papers.descr}}</p>
-          <div class="tag-wrapper">
-              <span class="tag neumorphism-card">{{papers.publisher}}</span>
-          </div>
-          {% if papers.tags %}
-            <div class="tag-wrapper">
-              {% for tag in papers.tags %}
-                <span class="tag neumorphism-card">{{tag.tag}}</span>
-              {% endfor %}
-            </div>
-          {% endif %}
-        </div>
-      {% endfor %}
-    </section>
-
-    <section class="card neumorphism-card-big">
-      <iframe class = "inline_docs" src="https://docs.google.com/gview?url=https://www.rudramanisingha.com/assets/pdfs/sdr/sdr_acceptance.pdf&embedded=true" style="min-height:80vh;width:100%" frameborder="0"></iframe>
-    </section>
-
-    <section class="card neumorphism-card-big">
-      <iframe  class = "inline_docs" src="https://docs.google.com/gview?url=https://www.rudramanisingha.com/assets/pdfs/sdr/sdr.pdf&embedded=true" style="min-height:80vh;width:100%" frameborder="0"></iframe>
-    </section>
-
+    {% if page.type == "sdr" %}
+      {% include sdr_inc.html %}
+    {% endif %}
+    {% if page.type == "vsd" %}
+      {% include vsd_inc.html %}
+    {% endif %}
   </div>
 </body>
 </html>
