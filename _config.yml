@@ -7,7 +7,7 @@ title: Rudramani Singha
 description: Portfolio of Rudramani Singha
 # baseurl: The subpath of your site
 # > set this to "", if you renamed the repository to <user>.github.io
-baseurl: "https://www.rudramanisingha.com"
+baseurl: ""
 
 # LANDING PAGE
 # adds noise by then also makes things bringther >:<

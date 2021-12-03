@@ -25,32 +25,16 @@
   <div class="layout">
     <section class="card neumorphism-card-big">
       <h1 class="title"><span>
-        <a class="highlight-link" href="{{ site.baseurl }}" rel="noreferrer" st> ⦭ </a>
-        Research Papers</span></h1>
+        <a class="highlight-link" href="https://www.rudramanisingha.com/" rel="noreferrer" st> ⦭ </a>
+        {{ page.title }}</span></h1>
     </section>
     <section class="card neumorphism-card-big">
-      <div class="projects-wrapper">
-        {% for papers in site.data.papers %}
-          <div class="project neumorphism-card" data-aos="zoom-in-down" data-aos-duration="200" data-aos-delay="0">
-            <div class="name-link-wrapper">
-              <h3>{{papers.name}}</h3>
-            </div>
-            <p class="project-desc">{{papers.descr}}</p>
-            {% if papers.demo %}
-              <a class="highlight-link" href="{{papers.demo}}" target="_blank" rel="noreferrer">
-                Preprint + Acceptance
-              </a>
-            {% endif %}
-            {% if papers.tags %}
-              <div class="tag-wrapper">
-                {% for tag in papers.tags %}
-                  <span class="tag neumorphism-card">{{tag.tag}}</span>
-                {% endfor %}
-              </div>
-            {% endif %}
-          </div>
-      {% endfor %}
-      </div>
+      {% if page.type == "paper" %}
+        {% include disp_paper.html %}
+      {% endif %}
+      {% if page.type == "patent" %}
+        {% include disp_patents.html %}
+      {% endif %}
     </section>
   </div>
 </body>

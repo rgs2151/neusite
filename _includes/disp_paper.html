@@ -1,0 +1,25 @@
+<div class="projects-wrapper">
+    {% for papers in site.data.papers %}
+      <div class="project neumorphism-card" data-aos="zoom-in-down" data-aos-duration="200" data-aos-delay="0">
+        <div class="name-link-wrapper">
+          <h3>{{papers.name}}</h3>
+        </div>
+        <p class="project-desc">{{papers.descr}}</p>
+        <div class="tag-wrapper">
+            <span class="tag neumorphism-card">{{papers.publisher}}</span>
+        </div>
+        {% if papers.demo %}
+          <a class="highlight-link" href="{{papers.demo}}" target="_blank" rel="noreferrer">
+            Preprint + Acceptance
+          </a>
+        {% endif %}
+        {% if papers.tags %}
+          <div class="tag-wrapper">
+            {% for tag in papers.tags %}
+              <span class="tag neumorphism-card">{{tag.tag}}</span>
+            {% endfor %}
+          </div>
+        {% endif %}
+      </div>
+    {% endfor %}
+</div>
