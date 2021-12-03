@@ -60,6 +60,11 @@ html {
 //   scrollbar-width: none;  /* Firefox */
 // }
 
+.event-desc {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
 body {
   height: 100%;
 }

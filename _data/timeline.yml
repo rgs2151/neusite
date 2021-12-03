@@ -17,50 +17,62 @@
 #     - tag: Rails
 #   timeline-side: right
 
-- title: Born
-  title-url: https://example.com/
-  date: Sep 2019 - Present
-  subtitle: Fullstack Developer
-  tags:
-    - tag: React
-    - tag: Javascript
-    - tag: Ruby
-    - tag: Rails
+- title: NEUROVISION
+  title-url: "#"
+  date: Jun 2021 - Present
+  subtitle: Founder CEO
+  desc: "We are a brain-machine interface startup that is developing early warning detection systems for epileptic patients.<br>I am responsible for operations, finance, and most importantly, development of solutions for the customers."
   timeline-side: right
 
-- title: Google
-  title-url: https://example.com/
-  date: Mar 2019 - Sep 2019
-  subtitle: Software Engineer as Intern
+- title: Algorithm Design Lab, RGIT
+  title-url: https://www.mctrgit.ac.in/
+  date: Jan 2021 – Jul 2021
+  subtitle: Undergraduate Researcher
+  desc: Worked with Prof Nilesh Rathod to create a tool which helps in preliminary diagnosis of health index by learning from user's movements.
+  timeline-side: left
+
+- title: AZYO
+  title-url: https://azyo.io/
+  date: Mar 2021 - Present
+  subtitle: Machine Learning Consultant
   tags:
-    - tag: Flutter
-    - tag: Dart
-    - tag: Keycloak
+    - tag: Identity Verification
+    - tag: Facial Recognition + Anti-Spoofing Countermeasure
+    - tag: Sign Language Recogniton
+    - tag: Realtime Proctoring System
   timeline-side: right
 
-- title: Super University
-  title-url: https://example.com/
-  date: 2017 - 2019
+- title: Software Computing Lab, RGIT
+  title-url: https://www.mctrgit.ac.in/
+  date: Jun 2020 – Dec 2020
+  subtitle: Undergraduate Researcher
+  desc: Led the research and development of an end-to-end over-speed detection + license plate recognition system.
+  timeline-side: left
+
+- title: CSKAA
+  title-url: http://cskaa.co.in/
+  date: Oct 2020 - Feb 2021
+  subtitle: Machine Learning Engineer - Intern
+  tags:
+    - tag: OCR
+    - tag: Google Vision
+    - tag: RegEx
+  timeline-side: right
+
+- title: University of Mumbai
+  title-url: https://www.mctrgit.ac.in/
+  date: 2018 - Present
   subtitle: M.Sc. Computer Science
   timeline-side: left
 
-- title: Facebook
-  title-url: https://example.com/
-  date: Sep 2017 - Mar 2019
-  subtitle: Front-End Developer as Intern
-  tags:
-    - tag: React
-    - tag: Node
-    - tag: Javascript
-  timeline-side: right
-
-- title: Super University
-  title-url: https://example.com/
-  date: 2014 - 2017
-  subtitle: B.A. Computer Science
+- title: University of Cambridge
+  title-url: https://ppsijc.org/
+  date: 2016 - 2018
+  subtitle: AS and A Levels
   timeline-side: left
 
-- title: Super University
-  date: 2010 - 2014
-  subtitle: B.A. Computer Science
+- title: University of Cambridge
+  title-url: "#"
+  date: 2010 - 2016
+  subtitle: IGCSE
   timeline-side: left
