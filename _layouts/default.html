@@ -42,6 +42,17 @@
         {% include section-timeline.html %}
       </section>
     {% endif %}
+
+    <section class="card neumorphism-card-big">
+      <h1 class="title"><span>Papers</span></h1>
+      {% include disp_paper.html %}
+    </section>
+
+    <section class="card neumorphism-card-big">
+      <h1 class="title"><span>Patents</span></h1>
+      {% include disp_patents.html %}
+    </section>
+
     {%if site.show_projects_card %}
       <section class="card neumorphism-card-big">
         {% include section-projects.html %}
