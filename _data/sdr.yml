@@ -1,0 +1,26 @@
+# > name: Name of your project
+# > descr: Description of your project
+# > demo: Link to your project
+# > tags: List of technologies you used in your projects
+#
+# Example of a project
+# - name: project X
+#   descr: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam"
+#   demo: https://example.com/
+#   tags:
+#     - tag: MongoDB
+#     - tag: Express
+#     - tag: AngularJS
+#     - tag: Node
+
+- name: Dynamic Pose Diagnosis with BlazePose and LSTM for Spinal Dysfunction Risk Estimation
+  descr: "This contribution features a novel technique of abstracting dynamic heat-map as the sequential input to custom LSTMs and implements a spinal health index estimator using only an input video of patients performing predetermined tasks."
+  publisher: "4th International Conference on Smart Systems and Inventive Technology (ICSSIT 2022)"
+  demo: https://www.rudramanisingha.com/papers/sdr.html
+  tags:
+    - tag: Rudramani Singha
+    - tag: Manan Lad
+    - tag: Gaurav Shipurkar
+    - tag: Anish Rohekar
+    - tag: Chandar Chauhan
+    - tag: Nilesh Rathod
