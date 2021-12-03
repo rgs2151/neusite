@@ -33,7 +33,7 @@ twitter_username:
 # show_aboutme_card:
 # > setting this to true, will display the About Me section
 # > setting this to false, will omit the About Me section
-show_aboutme_card: true
+show_aboutme_card: false
 # about_me_title: The will be displayed as the title in the About Me section
 about_me_title: About Me
 # about_me_description: This will be displayed under the title.
@@ -84,9 +84,9 @@ skills_title: Skills & Tools
 # > setting this to false, will omit the Contact section
 show_contact_card: true
 # contact_title: The will be displayed as the title in the Contact section
-contact_title: Contact
+contact_title: Get in Touch
 # contact_description: This will be displayed under the title.
-contact_description: This is where you will contact me.
+contact_description: Thank you for taking the time to go through my profile. <br>Should you need any further information, please do not hesitate to contact me.
 
 # GITHUB-METADATA
 # Set this to your forked repository
