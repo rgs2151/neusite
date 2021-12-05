@@ -14,7 +14,7 @@
 #     - tag: Node
 
 - name: Official Implementation - Vehicle Speed Detection Using Multi-Branch Networks from Temporal Image Pairs 
-  descr: "This is the official implementation for one of my <a class="highlight-link" href="https://www.rudramanisingha.com/papers.html" target="_blank" rel="noreferrer">research papers</a>"
+  descr: This is the official implementation for one of my <a class="highlight-link" href="https://www.rudramanisingha.com/papers.html" target="_blank" rel="noreferrer">research papers</a>
   demo: https://github.com/monacotime/Vehicle-Speed-Detection-Using-Multi-Branch-Networks-from-Temporal-Image-Pairs
   tags:
     - tag: Keras
