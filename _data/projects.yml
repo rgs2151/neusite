@@ -39,3 +39,12 @@
     - tag: Keras
     - tag: Tensorflow
     - tag: Fundamentals
+
+- name: Gesture Recognition based Camera using Raspberry pi
+  descr: "Implements YOLO v4 on Raspberry pi with a camera module to intelligently take photo by looking at the gesture of the person in the frame and further sync it to the cloud"
+  demo: https://github.com/monacotime/IoT_camera_with_gestures
+  tags:
+    - tag: Tensorflow
+    - tag: Yolo v4
+    - tag: Raspberry pi 3B
+    - tag: TFlite

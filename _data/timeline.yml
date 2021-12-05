@@ -17,6 +17,17 @@
 #     - tag: Rails
 #   timeline-side: right
 
+- title: VAO
+  title-url: "#"
+  date: Dec 2021 - Present
+  subtitle: "Machine Learning Intern"
+  desc: "Working directly under Dr. Valentina Pedoia and Dr. Davide Onofrio to engineer NLP models focused on improving supply chain predictability and visibility."
+  tags:
+    - tag: BERT
+    - tag: NLP
+    - tag: AWS
+  timeline-side: right
+
 - title: NEUROVISION
   title-url: "#"
   date: Jun 2021 - Present
