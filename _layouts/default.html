@@ -43,6 +43,12 @@
       </section>
     {% endif %}
 
+    {%if site.show_vol_card %}
+    <section class="card neumorphism-card-big">
+      {% include section-vol.html %}
+    </section>
+    {% endif %}
+
     <section class="card neumorphism-card-big">
       <h1 class="title"><span>Papers</span></h1>
       {% include disp_paper.html %}
@@ -58,6 +64,7 @@
         {% include section-projects.html %}
       </section>
     {% endif %}
+
     {%if site.show_skills_card %}
     <section class="card neumorphism-card-big">
       {% include section-skills.html %}

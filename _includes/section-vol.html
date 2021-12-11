@@ -1,0 +1,18 @@
+
+<h1 class="title"><span>{{site.vol_title}}</span></h1>
+<p class="subtitle">
+  Further details are available on
+  <a class="highlight-link" href="{{site.vol_link}}" target="_blank" rel="noreferrer">
+    LinkedIn
+  </a>.
+</p>
+<div class="projects-wrapper">
+  {% for project in site.data.vol %}
+    <div class="project neumorphism-card" data-aos="zoom-in-down" data-aos-duration="200" data-aos-delay="0">
+      <div class="name-link-wrapper">
+        <h3>{{project.name}}</h3>
+      </div>
+      <p class="project-desc">{{project.descr}}</p>
+    </div>
+  {% endfor %}
+</div>

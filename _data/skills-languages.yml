@@ -5,11 +5,19 @@
 # - name: Language
 #   weight: 5
 
-- name: ok
+- name: Python
 
 - name: JavaScript
 
-- name: Python
+- name: JAVA
+
+- name: C/C++
+
+- name: SQL
+
+- name: C#
+
+- name: TypeScript
 
 - name: HTML5
 
@@ -17,14 +25,4 @@
 
 - name: SASS
 
-- name: Java
-
-- name: Dart
-
-- name: Swift
-
-- name: Kotlin
-
-- name: C++
-
-- name: Ruby
+- name: LaTeX

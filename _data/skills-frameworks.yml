@@ -5,20 +5,24 @@
 # - name: Framework
 #   weight: 5
 
-- name: Whatever
+- name: CNN
 
-- name: AngularJS
+- name: LSTM
 
-- name: React
+- name: YOLOv5
 
-- name: Node
+- name: BERT
 
-- name: Flutter
+- name: Mask R-CNN
 
-- name: Express
+- name: Tesseract OCR
 
-- name: Django
+- name: Google Vision API
 
-- name: Spring
+- name: Dense Networks
 
-- name: Rails
+- name: Regression 
+
+- name: Classification
+
+- name: RNNs

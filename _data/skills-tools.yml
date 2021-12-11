@@ -5,22 +5,40 @@
 # - name: Git
 #   weight: 5
 
-- name: Fine
+- name: Django
 
-- name: Bash
+- name: Flask
 
-- name: Scrum
+- name: Bootstrap
 
-- name: Travis CI
+- name: AngularJS
 
-- name: Jenkins
+- name: React
 
-- name: Chrome DevTools
+- name: Node
 
-- name: npm
+- name: Blender
 
-- name: gulp
+- name: Photoshop
 
-- name: VS Code
+- name: Premiere Pro
 
-- name: Postman
+- name: After Effects
+
+- name: Illustrator
+
+- name: AutoCAD
+
+- name: Autodesk Maya
+
+- name: 3ds Max
+
+- name: Pandas
+
+- name: Tensorflow
+
+- name: Keras
+
+- name: Pytorch
+
+- name: BeautifulSoup

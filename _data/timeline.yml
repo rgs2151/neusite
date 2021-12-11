@@ -29,7 +29,6 @@
   timeline-side: right
 
 - title: NEUROVISION
-  title-url: "#"
   date: Jun 2021 - Present
   subtitle: "Founder & CEO"
   desc: "We are a brain-machine interface startup that is developing early warning detection systems for epileptic patients.<br>I am responsible for operations, finance, and most importantly, development of solutions for the customers."
@@ -37,7 +36,7 @@
 
 - title: Algorithm Design Lab
   title-url: https://www.mctrgit.ac.in/
-  date: Jan 2021 – Jul 2021
+  date: Jan 2021 - Jul 2021
   subtitle: Undergraduate Researcher
   desc: Worked with Prof Nilesh Rathod to create a tool which helps in preliminary diagnosis of health index by learning from user's movements.
   timeline-side: left
@@ -55,7 +54,7 @@
 
 - title: Software Computing Lab
   title-url: https://www.mctrgit.ac.in/
-  date: Jun 2020 – Dec 2020
+  date: Jun 2020 - Dec 2020
   subtitle: Undergraduate Researcher
   desc: Led the research and development of an end-to-end over-speed detection + license plate recognition system.
   timeline-side: left
@@ -83,7 +82,6 @@
   timeline-side: left
 
 - title: University of Cambridge
-  title-url: "#"
   date: 2010 - 2016
   subtitle: IGCSE
   timeline-side: left

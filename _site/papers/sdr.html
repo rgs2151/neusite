@@ -15,6 +15,9 @@
   <link rel="manifest" href="/assets/favicon/site.webmanifest">
 
   <link rel="stylesheet" href="/assets/css/main.min.css">
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  
   <!-- <link rel="stylesheet" href="/assets/css/vendors.min.css"> -->
 
   <!-- <script src="/assets/js/vendors.min.js"></script> -->
@@ -30,47 +33,97 @@
     </section>
     
       <section class="card neumorphism-card-big">
-    
-      <div class="project neumorphism-card" data-aos="zoom-in-down" data-aos-duration="200" data-aos-delay="0">
-        <div class="name-link-wrapper">
-          <h3>Dynamic Pose Diagnosis with BlazePose and LSTM for Spinal Dysfunction Risk Estimation</h3>
-        </div>
-        <p class="project-desc">This contribution features a novel technique of abstracting dynamic heat-map as the sequential input to custom LSTMs and implements a spinal health index estimator using only an input video of patients performing predetermined tasks.</p>
-        <span>
-          <a class="highlight-link" href="https://www.rudramanisingha.com/assets/pdfs/sdr/sdr.pdf" target="_blank" rel="noreferrer"> Download Paper </a>
-          <a class="highlight-link" href="https://www.rudramanisingha.com/assets/pdfs/sdr/sdr_acceptance.pdf" target="_blank" rel="noreferrer"> Download Acceptance </a>
-        </span>
-        <div class="tag-wrapper">
-            <span class="tag neumorphism-card">4th International Conference on Smart Systems and Inventive Technology (ICSSIT 2022)</span>
-        </div>
-        
-          <div class="tag-wrapper">
-            
-              <span class="tag neumorphism-card">Rudramani Singha</span>
-            
-              <span class="tag neumorphism-card">Manan Lad</span>
-            
-              <span class="tag neumorphism-card">Gaurav Shipurkar</span>
-            
-              <span class="tag neumorphism-card">Anish Rohekar</span>
-            
-              <span class="tag neumorphism-card">Chandar Chauhan</span>
-            
-              <span class="tag neumorphism-card">Nilesh Rathod</span>
-            
-          </div>
-        
+  
+    <div class="project neumorphism-card" data-aos="zoom-in-down" data-aos-duration="200" data-aos-delay="0">
+      <div class="name-link-wrapper">
+        <h3>Dynamic Pose Diagnosis with BlazePose and LSTM for Spinal Dysfunction Risk Estimation</h3>
       </div>
-    
-  </section>
-
-  <section class="card neumorphism-card-big">
-    <iframe class = "inline_docs" src="https://docs.google.com/gview?url=https://www.rudramanisingha.com/assets/pdfs/sdr/sdr_acceptance.pdf&embedded=true" style="min-height:80vh;width:100%" frameborder="0"></iframe>
-  </section>
-
-  <section class="card neumorphism-card-big">
-    <iframe  class = "inline_docs" src="https://docs.google.com/gview?url=https://www.rudramanisingha.com/assets/pdfs/sdr/sdr.pdf&embedded=true" style="min-height:80vh;width:100%" frameborder="0"></iframe>
+      <p class="project-desc">This contribution features a novel technique of abstracting dynamic heat-map as the sequential input to custom LSTMs and implements a spinal health index estimator using only an input video of patients performing predetermined tasks.</p>
+      <span>
+        <a class="highlight-link" href="https://www.rudramanisingha.com/assets/pdfs/sdr/sdr.pdf" target="_blank" rel="noreferrer"> View Paper </a>
+        <a class="highlight-link" href="https://www.rudramanisingha.com/assets/pdfs/sdr/sdr_acceptance.pdf" target="_blank" rel="noreferrer"> View Acceptance </a>
+      </span>
+      <div class="tag-wrapper">
+          <span class="tag neumorphism-card">4th International Conference on Smart Systems and Inventive Technology (ICSSIT 2022)</span>
+      </div>
+      
+        <div class="tag-wrapper">
+          
+            <span class="tag neumorphism-card">Rudramani Singha</span>
+          
+            <span class="tag neumorphism-card">Manan Lad</span>
+          
+            <span class="tag neumorphism-card">Gaurav Shipurkar</span>
+          
+            <span class="tag neumorphism-card">Anish Rohekar</span>
+          
+            <span class="tag neumorphism-card">Chandar Chauhan</span>
+          
+            <span class="tag neumorphism-card">Nilesh Rathod</span>
+          
+        </div>
+      
+    </div>
+  
 </section>
+
+<section class="card neumorphism-card-big">
+  <div id = "iframeContainer1"></div>
+  <!-- <iframe class = "inline_docs" src="https://docs.google.com/gview?url=https://www.rudramanisingha.com/assets/pdfs/sdr/sdr_acceptance.pdf&embedded=true" style="min-height:80vh;width:100%" frameborder="0"></iframe> -->
+</section>
+
+<script>
+  var URL1 = "https://docs.google.com/gview?url=https://www.rudramanisingha.com/assets/pdfs/sdr/sdr_acceptance.pdf&embedded=true";
+  var count1 = 0;
+  var iframe1 = ` <iframe id = "myIframe1" src = "${URL1}" style = "width:100%; height:500px;"  frameborder = "0"></iframe>`;
+
+  $(`#iframeContainer1`).html(iframe1);
+  $('#myIframe1').on('load', function(){ 
+    count1++;
+    if(count1>0){
+        clearInterval(ref1)
+    }
+  });
+
+  var ref1 = setInterval(()=>{
+    $(`#iframeContainer1`).html(iframe1);
+    $('#myIframe1').on('load', function() {
+        count1++;
+        if (count1 > 0) {
+            clearInterval(ref1)
+        }
+    });
+  }, 4000)
+</script>
+
+<section class="card neumorphism-card-big">
+  <div id = "iframeContainer2"></div>
+  <!-- <iframe  class = "inline_docs" src="https://docs.google.com/gview?url=https://www.rudramanisingha.com/assets/pdfs/sdr/sdr.pdf&embedded=true" style="min-height:80vh;width:100%" frameborder="0"></iframe> -->
+</section>
+
+<script>
+  var URL2 = "https://docs.google.com/gview?url=https://www.rudramanisingha.com/assets/pdfs/sdr/sdr.pdf&embedded=true";
+  var count2 = 0;
+  var iframe2 = ` <iframe id = "myIframe2" src = "${URL2}" style = "min-height:80vh;width:100%"  frameborder = "0"></iframe>`;
+
+  $(`#iframeContainer2`).html(iframe2);
+  $('#myIframe2').on('load', function(){
+    count2++;
+    if(count2>0){
+        clearInterval(ref2)
+    }
+  });
+
+  var ref2 = setInterval(()=>{
+    $(`#iframeContainer2`).html(iframe2);
+    $('#myIframe2').on('load', function() {
+        count2++;
+        if (count2 > 0) {
+            clearInterval(ref2)
+        }
+    });
+  }, 4000)
+</script>
 
     
     

@@ -51,6 +51,10 @@ timeline_title: Education & Experience
 # > e.g. you share your cv on your dropbox, then add the dropbox link here
 cv_download_link: "https://www.rudramanisingha.com/assets/pdfs/Rudramani_Singha_Resume.pdf"
 
+show_vol_card: true
+vol_title: Supplementary Experience
+vol_link: https://www.linkedin.com/in/rudramanisingha/details/volunteering-experiences/
+
 # PROJECTS SECTION
 # show_projects_card:
 # > setting this to true, will display the Projects section

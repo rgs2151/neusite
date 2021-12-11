@@ -1,0 +1,26 @@
+# > name: Name of your project
+# > descr: Description of your project
+# > demo: Link to your project
+# > tags: List of technologies you used in your projects
+#
+# Example of a project
+# - name: project X
+#   descr: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam"
+#   demo: https://example.com/
+#   tags:
+#     - tag: MongoDB
+#     - tag: Express
+#     - tag: AngularJS
+#     - tag: Node
+
+- name: Head Of Technical Department, ABIT RGIT
+  descr: Responsible for managing and co-ordinating 9 technical team members to provide expertise and develop solutions to any technical challenges faced by the ABIT committee.
+
+- name: Technical Consultant & Trainer, RGIT CodeCell
+  descr: I provide trainings on how to practically apply deeplearning to solve real-world problems on behalf of codecell RGIT.
+
+- name: Head Of Technical Department, IEEE-RGIT
+  descr: I am responsible for satisfying all the technical needs of IEEE-RGIT. I also oversee coordination of the technical digital creation and the website maintenance team.
+
+- name: Operations Manager, RGIT CodeCell
+  descr: In charge of hosting, managing and co-ordinating hackathons on behalf of codecell RGIT.
