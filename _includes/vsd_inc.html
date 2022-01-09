@@ -1,33 +1,89 @@
 <section class="card neumorphism-card-big">
-    {% for papers in site.data.vsd %}
-      <div class="project neumorphism-card" data-aos="zoom-in-down" data-aos-duration="200" data-aos-delay="0">
-        <div class="name-link-wrapper">
-          <h3>{{papers.name}}</h3>
-        </div>
-        <p class="project-desc">{{papers.descr}}</p>
-        <span>
-          <a class="highlight-link" href="https://www.rudramanisingha.com/assets/pdfs/vsd/vsd.pdf" target="_blank" rel="noreferrer"> View Paper </a>
-          <a class="highlight-link" href="https://www.rudramanisingha.com/assets/pdfs/vsd/vsd_acceptance.pdf" target="_blank" rel="noreferrer"> View Acceptance </a>
-        </span>
-        <div class="tag-wrapper">
-            <span class="tag neumorphism-card">{{papers.publisher}}</span>
-        </div>
-        {% if papers.tags %}
-          <div class="tag-wrapper">
-            {% for tag in papers.tags %}
-              <span class="tag neumorphism-card">{{tag.tag}}</span>
-            {% endfor %}
-          </div>
-        {% endif %}
+  {% for papers in site.data.vsd %}
+    <div class="project neumorphism-card" data-aos="zoom-in-down" data-aos-duration="200" data-aos-delay="0">
+      <div class="name-link-wrapper">
+        <h3>{{papers.name}}</h3>
       </div>
-    {% endfor %}
-  </section>
-
-  
-  <section class="card neumorphism-card-big">
-    <iframe class = "inline_docs" src="https://docs.google.com/gview?url=https://www.rudramanisingha.com/assets/pdfs/vsd/vsd_acceptance.pdf&embedded=true" style="min-height:80vh;width:100%" frameborder="0"></iframe>
-  </section>
-
-  <section class="card neumorphism-card-big">
-    <iframe  class = "inline_docs" src="https://docs.google.com/gview?url=https://www.rudramanisingha.com/assets/pdfs/vsd/vsd.pdf&embedded=true" style="min-height:80vh;width:100%" frameborder="0"></iframe>
+      <p class="project-desc">{{papers.descr}}</p>
+      <span>
+        <a class="highlight-link" href="https://www.rudramanisingha.com/assets/pdfs/vsd/vsd.pdf" target="_blank" rel="noreferrer"> View Paper </a>
+        <a class="highlight-link" href="https://www.rudramanisingha.com/assets/pdfs/vsd/vsd_acceptance.pdf" target="_blank" rel="noreferrer"> View Acceptance </a>
+      </span>
+      <div class="tag-wrapper">
+          <span class="tag neumorphism-card">{{papers.publisher}}</span>
+      </div>
+      {% if papers.tags %}
+        <div class="tag-wrapper">
+          {% for tag in papers.tags %}
+            <span class="tag neumorphism-card">{{tag.tag}}</span>
+          {% endfor %}
+        </div>
+      {% endif %}
+    </div>
+  {% endfor %}
 </section>
+
+
+<!-- <section class="card neumorphism-card-big">
+  <iframe class = "inline_docs" src="https://docs.google.com/gview?url=https://www.rudramanisingha.com/assets/pdfs/vsd/vsd_acceptance.pdf&embedded=true" style="min-height:80vh;width:100%" frameborder="0"></iframe>
+</section>
+
+<section class="card neumorphism-card-big">
+  <iframe  class = "inline_docs" src="https://docs.google.com/gview?url=https://www.rudramanisingha.com/assets/pdfs/vsd/vsd.pdf&embedded=true" style="min-height:80vh;width:100%" frameborder="0"></iframe>
+</section> -->
+
+<section class="card neumorphism-card-big">
+  <div id = "iframeContainer1"></div>
+</section>
+
+<script>
+  var URL1 = "https://docs.google.com/gview?url=https://www.rudramanisingha.com/assets/pdfs/vsd/vsd_acceptance.pdf&embedded=true";
+  var count1 = 0;
+  var iframe1 = ` <iframe id = "myIframe1" src = "${URL1}" style = "width:100%; height:500px;"  frameborder = "0"></iframe>`;
+
+  $(`#iframeContainer1`).html(iframe1);
+  $('#myIframe1').on('load', function(){ 
+    count1++;
+    if(count1>0){
+        clearInterval(ref1)
+    }
+  });
+
+  var ref1 = setInterval(()=>{
+    $(`#iframeContainer1`).html(iframe1);
+    $('#myIframe1').on('load', function() {
+        count1++;
+        if (count1 > 0) {
+            clearInterval(ref1)
+        }
+    });
+  }, 4000)
+</script>
+
+<section class="card neumorphism-card-big">
+  <div id = "iframeContainer2"></div>
+</section>
+
+<script>
+  var URL2 = "https://docs.google.com/gview?url=https://www.rudramanisingha.com/assets/pdfs/vsd/vsd.pdf&embedded=true";
+  var count2 = 0;
+  var iframe2 = ` <iframe id = "myIframe2" src = "${URL2}" style = "min-height:80vh;width:100%"  frameborder = "0"></iframe>`;
+
+  $(`#iframeContainer2`).html(iframe2);
+  $('#myIframe2').on('load', function(){
+    count2++;
+    if(count2>0){
+        clearInterval(ref2)
+    }
+  });
+
+  var ref2 = setInterval(()=>{
+    $(`#iframeContainer2`).html(iframe2);
+    $('#myIframe2').on('load', function() {
+        count2++;
+        if (count2 > 0) {
+            clearInterval(ref2)
+        }
+    });
+  }, 4000)
+</script>

@@ -24,7 +24,10 @@
   desc: "Working directly under Dr. Valentina Pedoia and Dr. Davide Onofrio to engineer NLP models focused on improving supply chain predictability and visibility."
   tags:
     - tag: BERT
-    - tag: NLP
+    - tag: Facebook DPR
+    - tag: Google T5
+    - tag: Transformers
+    - tag: Haystack
     - tag: AWS
   timeline-side: right
 
@@ -39,30 +42,37 @@
   date: Jan 2021 - Jul 2021
   subtitle: Undergraduate Researcher
   desc: Worked with Prof Nilesh Rathod to create a tool which helps in preliminary diagnosis of health index by learning from user's movements.
+  tags:
+    - tag: <a class="highlight-link" href="https://www.rudramanisingha.com/papers/sdr.html" target="_blank" rel="noreferrer">Publication</a>
   timeline-side: left
 
 - title: AZYO
   title-url: https://azyo.io/
   date: Mar 2021 - Present
   subtitle: Machine Learning Consultant
+  desc: Identity Verification <br>Facial Recognition + Anti-Spoofing Countermeasure <br>Sign Language Recogniton <br>Realtime Proctoring System
   tags:
-    - tag: Identity Verification
-    - tag: Facial Recognition + Anti-Spoofing Countermeasure
-    - tag: Sign Language Recogniton
-    - tag: Realtime Proctoring System
+    - tag: Django
+    - tag: Flask
+    - tag: 3D CNN + LSTM
+    - tag: Mediapipe
+    - tag: Face-recognition
   timeline-side: right
 
 - title: Software Computing Lab
   title-url: https://www.mctrgit.ac.in/
   date: Jun 2020 - Dec 2020
   subtitle: Undergraduate Researcher
-  desc: Led the research and development of an end-to-end over-speed detection + license plate recognition system.
+  desc: Led the research and development of an end-to-end over-speed detection + license plate recognition system with Dr. Sunil Wankhade.
+  tags:
+    - tag: <a class="highlight-link" href="https://www.rudramanisingha.com/papers/vsd.html" target="_blank" rel="noreferrer">Publication</a>
   timeline-side: left
 
 - title: CSKAA
   title-url: http://cskaa.co.in/
   date: Oct 2020 - Feb 2021
   subtitle: Machine Learning Engineer - Intern
+  desc: Refactored the entire OCR pipeline and integrated it with Google Vision API for up to 30% faster performance and better accuracy.<br>Created Regex post processing engine to support 11+ different document formats
   tags:
     - tag: OCR
     - tag: Google Vision
@@ -72,16 +82,16 @@
 - title: University of Mumbai
   title-url: https://www.mctrgit.ac.in/
   date: 2018 - Present
-  subtitle: B.E, Information Technology
+  desc: Bachelor of Engineering<br>Information Technology
   timeline-side: left
 
 - title: University of Cambridge
   title-url: https://ppsijc.org/
   date: 2016 - 2018
-  subtitle: AS and A Levels
+  desc: AS and A Levels
   timeline-side: left
 
 - title: University of Cambridge
   date: 2010 - 2016
-  subtitle: IGCSE
+  desc: IGCSE
   timeline-side: left
