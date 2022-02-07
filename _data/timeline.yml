@@ -82,16 +82,16 @@
 - title: University of Mumbai
   title-url: https://www.mctrgit.ac.in/
   date: 2018 - Present
-  desc: Bachelor of Engineering<br>Information Technology
+  subtitle: Bachelor of Engineering<br>Information Technology
   timeline-side: left
 
 - title: University of Cambridge
   title-url: https://ppsijc.org/
   date: 2016 - 2018
-  desc: AS and A Levels
+  subtitle: AS and A Levels
   timeline-side: left
 
 - title: University of Cambridge
   date: 2010 - 2016
-  desc: IGCSE
+  subtitle: IGCSE
   timeline-side: left
