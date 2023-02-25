@@ -7,22 +7,28 @@
 
 - name: Python
 
-- name: JavaScript
-
-- name: JAVA
+- name: R
 
 - name: C/C++
 
+- name: Java
+
+- name: MATLAB
+
+- name: CUDA
+
 - name: SQL
 
-- name: C#
-
-- name: TypeScript
-
-- name: HTML5
-
-- name: CSS3
-
-- name: SASS
+- name: JavaScript
 
 - name: LaTeX
+
+- name: Markdown
+
+- name: PHP
+
+- name: HTML
+
+- name: CSS
+
+- name: Bootstrap

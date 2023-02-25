@@ -5,17 +5,6 @@
 # - name: Framework
 #   weight: 5
 
-- name: Retriever-Reader
-
-- name: Abstractive Summarization
-
-- name: Object Detection
-
-- name: Image Segmentation
-
-- name: Question Answering
-
-
 - name: Blender
 
 - name: Autodesk Maya
