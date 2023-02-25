@@ -17,82 +17,90 @@
 #     - tag: Rails
 #   timeline-side: right
 
-- title: VAO
-  title-url: "#"
-  date: Dec 2021 - Present
-  subtitle: "Machine Learning Intern"
-  desc: "Working directly under Dr. Valentina Pedoia and Dr. Davide Onofrio to engineer NLP models focused on improving supply chain predictability and visibility."
+- title: Columbia University
+  title-url: https://www.modelshare.org/
+  date: Oct 2022 - Present
+  subtitle: Research Assistant 
+  desc: "Developed new features for AI Model Share MLOps platform, including model deployment, continuous improvement, and ML analytics, as well as automated machine learning model replication toolkit for enhanced reproducibility research. <br>Integrated state-of-the-art deep learning models from ML Reproducibility Challenge 2022 using AWS Lambda, resulting in increased efficient deployments and access to ML models."
   tags:
-    - tag: BERT
-    - tag: Facebook DPR
-    - tag: Google T5
-    - tag: Transformers
-    - tag: Haystack
-    - tag: AWS
+    - tag:
+  timeline-side: left
+
+- title: VAO Labs
+  title-url: https://www.vao.world/
+  date: Dec 2021 - Mar 2022
+  subtitle: "Machine Learning Consultant"
+  desc: "Led a team of founding engineers to design NLP solutions for supply chain predictability and visibility, yielding high-impact pitches to investors and clients. <br>Engineered a decision graph framework for hierarchical classification of over 500 classes, with parallel traversal and Q&A justification. <br>Devised techniques for model inspection, logging, and data caching, resulting in an 80% improvement in R&D performance and enabling rapid development of a working prototype within 1 month."
+  tags:
+    - tag: Dense Passage Retrievers
+    - tag: Information Retrieval Systems (IRQA)
+    - tag: Text2Text Generation
+    - tag: Data Ingestion
+    - tag: Abstractive Summarization
+    - tag: Framework engineering
+    - tag: Model Analysis & Inspections
+    - tag: Elasticsearch
+    - tag: FAISS
+    - tag: T0
+    - tag: T5
+    - tag: BERTs
+    - tag: BARTs
+    - tag: RoBERTas
+    - tag: YOLOv5
+    - tag: custom DNN classifiers
   timeline-side: right
 
 - title: NEUROVISION
   title-url: https://www.neurovision.org.in/
-  date: Jun 2021 - Present
-  subtitle: "Founder & CEO"
-  desc: "Incorporated a small specialized Machine Learning Research & Consulting Firm with a team of 10 engineers<br>Developed solutions ranging from site optimizations with Google Analytics post-processing to automation using seq2seq chatbots"
+  date: Jun 2021 - Oct 2022
+  subtitle: "Founder"
+  desc: "Incorporated a small specialized Machine Learning Research & Consulting Firm with a team of 10 engineers. <br>Drove over 10 B2B customer success; Customers include NullIot, Cart Geek, and Axis Technical Group. <br>Developed solutions ranging from site optimizations with Google Analytics post-processing to automation using seq2seq chatbots"
   timeline-side: right
-
-- title: Algorithm Design Lab
-  title-url: https://www.mctrgit.ac.in/
-  date: Jan 2021 - Jul 2021
-  subtitle: Undergraduate Researcher
-  desc: Worked with Prof Nilesh Rathod to create a tool which helps in preliminary diagnosis of health index by learning from user's movements.
-  tags:
-    - tag: <a class="highlight-link" href="https://www.rudramanisingha.com/papers/sdr.html" target="_blank" rel="noreferrer">Publication</a>
-  timeline-side: left
 
 - title: AZYO
   title-url: https://azyo.io/
-  date: Mar 2021 - Present
-  subtitle: Machine Learning Consultant
-  desc: Identity Verification <br>Facial Recognition + Anti-Spoofing Countermeasure <br>Sign Language Recogniton <br>Realtime Proctoring System
+  date: Mar 2021 - Dec 2021
+  subtitle: Machine Learning Engineer - Intern
+  desc: "Designed an authentication system using facial recognition and anti-spoofing countermeasures against presentation attacks. <br>Constructed an exam proctoring system detecting head, gestures, and eye movements to generate a confidence metric with RNNs. <br>Led development of sign language recognition project from data collection, processing, implementation, to deployment; Achieved 95% accuracy on in-house benchmarks with every batch vocabulary R&D cycle."
   tags:
-    - tag: Django
-    - tag: Flask
-    - tag: 3D CNN + LSTM
     - tag: Mediapipe
     - tag: Face-recognition
+    - tag: JavaScript Framework Engineering
+    - tag: Vector Space Mathematics
+    - tag: RNNs
+    - tag: LSTMs
+    - tag: Video Augmentation Scripting
+    - tag: Data Engineering
+    - tag: Unreal Engine
+    - tag: Django
+    - tag: Flask
+    - tag: SQL
   timeline-side: right
 
-- title: Software Computing Lab
-  title-url: https://www.mctrgit.ac.in/
-  date: Jun 2020 - Dec 2020
-  subtitle: Undergraduate Researcher
-  desc: Led the research and development of an end-to-end over-speed detection + license plate recognition system with Dr. Sunil Wankhade.
-  tags:
-    - tag: <a class="highlight-link" href="https://www.rudramanisingha.com/papers/vsd.html" target="_blank" rel="noreferrer">Publication</a>
-  timeline-side: left
-
-- title: CSKAA
+- title: CSKA Automation Services Pvt Ltd
   title-url: http://cskaa.co.in/
   date: Oct 2020 - Feb 2021
   subtitle: Machine Learning Engineer - Intern
-  desc: Refactored the entire OCR pipeline and integrated it with Google Vision API for up to 30% faster performance and better accuracy.<br>Created Regex post processing engine to support 11+ different document formats
+  desc: "Refactored entire OCR API pipeline and integrated it with Google Vision API for up to 30% faster performance and better accuracy. <br>Created post-processing engine to support 11+ different document formats with Named Entity Recognition and REGEX. <br>Managed a team of 6 game developers to design and develop a virtual reality space for multiplayer online education."
   tags:
-    - tag: OCR
-    - tag: Google Vision
-    - tag: RegEx
+    - tag: Flask
+    - tag: Tesseract OCR
+    - tag: EAST Detector
+    - tag: Google Vision API
+    - tag: spaCy
+    - tag: REGEX
   timeline-side: right
+
+- title: Columbia University
+  title-url: https://www.columbia.edu/
+  date: Expected Graduation Dec 2023
+  subtitle: Master of Science - MS, Bioengineering and Biomedical Engineering
+  desc: "Won Shardashish Interschool Fellowship, worth $50,000, nominated by Dean of Columbia Engineering. <br>Won Data Science Institute Scholar award for Developing MLOps Tools for Researchers. <br>Courses: High Performance Machine Learning, Deep Learning for Computer Vision,  Competitive Programming." 
+  timeline-side: left  
 
 - title: University of Mumbai
   title-url: https://www.mctrgit.ac.in/
-  date: 2018 - Present
+  date: Jul 2022
   subtitle: Bachelor of Engineering<br>Information Technology
-  timeline-side: left
-
-- title: University of Cambridge
-  title-url: https://ppsijc.org/
-  date: 2016 - 2018
-  subtitle: AS and A Levels
-  timeline-side: left
-
-- title: University of Cambridge
-  date: 2010 - 2016
-  subtitle: IGCSE
+  desc: "Undergraduate research assistant to Prof. Sunil Wankhade & Prof. Nilesh Rathode. <br>Head Of Department, ABIT-RGIT & IEEE-RGIT; Technical Consultant & Trainer, RGIT-CodeCell."
   timeline-side: left

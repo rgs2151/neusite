@@ -5,40 +5,32 @@
 # - name: Git
 #   weight: 5
 
-- name: Django
+- name: PyTorch
 
-- name: Flask
+- name: TensorFlow
 
-- name: Bootstrap
-
-- name: AngularJS
-
-- name: React
-
-- name: Node
-
-- name: Blender
-
-- name: Photoshop
-
-- name: Premiere Pro
-
-- name: After Effects
-
-- name: Illustrator
-
-- name: AutoCAD
-
-- name: Autodesk Maya
-
-- name: 3ds Max
-
-- name: Pandas
-
-- name: Tensorflow
+- name: Scikit-learn
 
 - name: Keras
 
-- name: Pytorch
+- name: Spark
 
-- name: BeautifulSoup
+- name: JAX
+
+- name: Elasticsearch
+
+- name: Pandas
+
+- name: NumPy
+
+- name: Git
+
+- name: Flask
+
+- name: Django
+
+- name: Docker
+
+- name: AWS
+
+- name: GCP
