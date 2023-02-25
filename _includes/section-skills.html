@@ -10,7 +10,7 @@
   <input type="radio" id="tool" name="filter" />
   <label class="filter-button neumorphism-button" for="tool">Tools</label>
   <input type="radio" id="creative" name="filter" />
-  <label class="filter-button neumorphism-button" for="creative">Creative</label>
+  <label class="filter-button neumorphism-button" for="creative">Creatives</label>
 
   <div id ="skill-divs-holder" class="tag-wrapper" data-aos="zoom-in" data-aos-duration="200" data-aos-delay="0">
     <!-- data-aos="zoom-in" -->
@@ -24,7 +24,7 @@
       <span skill-type="tool" class="tag neumorphism-card">{{tool.name}}</span>
     {% endfor %}
 
-    {% for creative in site.data.skills-creative %}
+    {% for creative in site.data.skills-creatives %}
     <span skill-type="creative" class="tag neumorphism-card">{{creative.name}}</span>
     {% endfor %}
 
