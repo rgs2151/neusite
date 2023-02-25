@@ -34,8 +34,8 @@ body[data-aos-delay="150"] [data-aos] {
 body[data-aos-delay="150"] [data-aos].aos-animate {
   transition-delay: .15s;
 }
-[data-aos][data-aos][data-aos-duration="200"],
-body[data-aos-duration="200"] [data-aos] {
+[data-aos][data-aos][data-aos-duration="50"],
+body[data-aos-duration="50"] [data-aos] {
   transition-duration: .2s;
 }
 [data-aos][data-aos][data-aos-delay="200"],
