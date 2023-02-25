@@ -27,10 +27,10 @@ $(document).ready(function() {
   // Initialize AOS
   AOS.init({
     disable: 'mobile',
-    offset: 200,
-    duration: 600,
+    offset: 0,
+    duration: 50,
     easing: 'ease-in-sine',
-    delay: 100,
+    delay: 0,
     once: true
   });
 
