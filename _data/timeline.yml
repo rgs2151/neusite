@@ -17,49 +17,18 @@
 #     - tag: Rails
 #   timeline-side: right
 
-- title: Columbia University
-  title-url: https://www.modelshare.org/
-  date: Oct 2022 - Present
-  subtitle: Research Assistant 
-  desc: "Developed new features for AI Model Share MLOps platform, including model deployment, continuous improvement, and ML analytics, as well as automated machine learning model replication toolkit for enhanced reproducibility research. <br><br>Integrated state-of-the-art deep learning models from ML Reproducibility Challenge 2022 using AWS Lambda, resulting in increased efficient deployments and access to ML models."
-  timeline-side: left
-
-- title: VAO Labs
-  title-url: https://www.vao.world/
-  date: Dec 2021 - Mar 2022
-  subtitle: "Machine Learning Consultant"
-  desc: "Led a team of founding engineers to design NLP solutions for supply chain predictability and visibility, yielding high-impact pitches to investors and clients. <br><br>Engineered a decision graph framework for hierarchical classification of over 500 classes, with parallel traversal and Q&A justification. <br><br>Devised techniques for model inspection, logging, and data caching, resulting in an 80% improvement in R&D performance and enabling rapid development of a working prototype within 1 month."
-  tags:
-    - tag: Dense Passage Retrievers
-    - tag: Information Retrieval Systems (IRQA)
-    - tag: Text2Text Generation
-    - tag: Data Ingestion
-    - tag: Abstractive Summarization
-    - tag: Framework engineering
-    - tag: Model Analysis & Inspections
-    - tag: Elasticsearch
-    - tag: FAISS
-    - tag: T0
-    - tag: T5
-    - tag: BERTs
-    - tag: BARTs
-    - tag: RoBERTas
-    - tag: YOLOv5
-    - tag: custom DNN classifiers
-  timeline-side: right
-
-- title: NEUROVISION
-  title-url: https://www.neurovision.org.in/
-  date: Jun 2021 - Oct 2022
-  subtitle: "Founder"
-  desc: "Incorporated a small specialized Machine Learning Research & Consulting Firm with a team of 10 engineers. <br><br>Drove over 10 B2B customer success; Customers include NullIot, Cart Geek, and Axis Technical Group. <br><br>Developed solutions ranging from site optimizations with Google Analytics post-processing to automation using seq2seq chatbots."
+- title: Columbia Engineering
+  title-url: https://www.engineering.columbia.edu/
+  date: Mar 2023 - Present
+  subtitle: "Research Associate"
+  desc: "@ Computational Neuroscience lab (PI: Nuttida Rungratsameetaweemana) <br><br> Leading representational content extraction from neural activities • Characterizing latent semantic features of perceptual decision-making neural data from single-channel recordings, EEGs, and fMRIs in lower dimensions to understand computations performed in brain <br><br> Designing state space models • Mathematically modelling 9+ hidden Markov models (HMMs) in multiple state and emission conditions to identify patterns and strategies in decision-making through explainable machine learning<br><br>RSA benchmarking • Quantifying efficacy of 10+ Representational Similarity Analysis (RSA) metrics on biophysically realistic RNNs trained on working memory retention, identifying strengths, limitations, and sensitivity to noise"
   timeline-side: left
 
 - title: AZYO
   title-url: https://azyo.io/
   date: Mar 2021 - Dec 2021
-  subtitle: Machine Learning Engineer - Intern
-  desc: "Designed an authentication system using facial recognition and anti-spoofing countermeasures against presentation attacks. <br><br>Constructed an exam proctoring system detecting head, gestures, and eye movements to generate a confidence metric with RNNs. <br><br>Led development of sign language recognition project from data collection, processing, implementation, to deployment; Achieved 95% accuracy on in-house benchmarks with every batch vocabulary R&D cycle."
+  subtitle: "Machine Learning Engineer II"
+  desc: "Engineered NLP solution for explainable HTS lookup • Developed decision graph frameworks for hierarchical classification of 500+ classes in Harmonized Tariff Schedule (HTS) with Q&A trace justifications and parallel traversals, achieving 94% validation accuracy on supported product chapters <br><br> Standardized R&D • Devised companywide standard MLOps platform for automated unit testing, model logging, and data caching, resulting in cross-departmental model sharing and enabling 2x speedup in rapid development of working prototypes"
   tags:
     - tag: Mediapipe
     - tag: Face-recognition
@@ -75,11 +44,18 @@
     - tag: SQL
   timeline-side: right
 
+- title: NEUROVISION
+  title-url: https://www.neurovision.org.in/
+  date: Jun 2021 - Oct 2022
+  subtitle: "Co-Founder & CTO"
+  desc: "Team Formation & Leadership • Led a team of 15 engineers to incorporate an engineering and consulting firm offering Agile AI/ML solutions that addressed specialized business needs <br><br> B2B Customer Success • Delivered 10+ impactful solutions ranging from site optimizations with Google Analytics post-processing to automation using seq2seq chatbots for clients including Null-IoT, Cart Geek, and Axis Technical Group"
+  timeline-side: left
+
 - title: CSKA Automation Services Pvt Ltd
   title-url: http://cskaa.co.in/
   date: Oct 2020 - Feb 2021
-  subtitle: Machine Learning Engineer - Intern
-  desc: "Refactored entire OCR API pipeline and integrated it with Google Vision API for up to 30% faster performance and better accuracy. <br><br>Created post-processing engine to support 11+ different document formats with Named Entity Recognition and REGEX. <br><br>Managed a team of 6 game developers to design and develop a virtual reality space for multiplayer online education."
+  subtitle: Software Engineer
+  desc: "Designed liveness detection system • Developed anti-spoofing countermeasures and authenticated 3000+ users against presentation attacks using a combination of facial recognition, hand gestures, and eye movements from live feed <br><br> Refactored complete ID extraction pipeline • Integrated OCR API with Google Vision for up to 60% faster performance and 30% improved accuracy; created cleanup and validation engine to support 11+ government Identity Document (ID) formats with Named Entity Recognition (NER) and REGEX in AWS"
   tags:
     - tag: Flask
     - tag: Tesseract OCR
@@ -91,8 +67,8 @@
 
 - title: Columbia University
   title-url: https://www.columbia.edu/
-  date: Dec 2023
-  subtitle: Master of Science - MS, Bioengineering and Biomedical Engineering
+  date: Expected Feb 2024
+  subtitle: Master of Science<br><br>Biomedical Engineering
   desc: "Won Shardashish Interschool Fellowship, worth $50,000, nominated by Dean of Columbia Engineering. <br><br>Won Data Science Institute Scholar award for Developing MLOps Tools for Researchers. <br><br>Courses: High Performance Machine Learning, Deep Learning for Computer Vision,  Competitive Programming." 
   timeline-side: left  
 
